@@ -1,0 +1,25 @@
+{
+  "applications": "*",
+  "changelogDate": "20220504003201",
+  "dto": "no",
+  "embedded": false,
+  "entityTableName": "directory",
+  "fields": [
+    {
+      "fieldName": "path",
+      "fieldType": "String",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "createdTime",
+      "fieldType": "Instant"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "Directory",
+  "pagination": "infinite-scroll",
+  "readOnly": false,
+  "relationships": [],
+  "service": "serviceClass"
+}

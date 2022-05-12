@@ -1,0 +1,8 @@
+entity Directory {
+    path String required,
+    createdTime Instant
+}
+
+paginate * with infinite-scroll
+
+service * with serviceClass
